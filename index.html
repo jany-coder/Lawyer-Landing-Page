@@ -1,12 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lawer Landing Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lawer Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img height="40" src="images/Logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse gap-4 justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TESTIMONIALS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TERMS</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- Hero section start -->
+  <section>
+    <div class="hero">
+      <div class="container-fluid container">
+        <div class="row hero-container align-items-end">
+          <div class="col-8">
+            <h2 class="hero__heading">Your Solution Legal Consultacy</h2>
+            <p class="hero__description">We are here to help you take care of your legality <br> with the best service
+              especially for you.</p>
+            <button class="hero__btn">Get Started</button>
+            <p class="hero__text">Trusted by 10+ companies in indonesia</p>
+            <div class="hero__brand row row-cols-2 gy-4 mt-2">
+              <div class="col">
+                <img height="25" src="images/airbnb.png" alt="">
+              </div>
+              <div class="col">
+                <img height="25" src="images/hubspot.png" alt="">
+              </div>
+              <div class="col">
+                <img height="25" src="images/microsoft.png" alt="">
+              </div>
+              <div class="col">
+                <img height="25" src="images/google.png" alt="">
+              </div>
+            </div>
+
+          </div>
+          <div class="col-4">
+            <img class="w-100" src="images/hero-image.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero section end -->
+
+  <!-- Feature section start -->
+  <section>
+    <div class="features">
+      <div class="container-fluid container">
+        <div class="row gx-5">
+          <div class="features__left col-5">
+            <h3>Why do we help with legalization?</h3>
+            <p>We are here for UMKM in Indonesia to carry out the legalization process, which is sometimes complicated.
+            </p>
+          </div>
+          <div class="features__right col-7">
+            <div class="row row-cols-2 g-5">
+              <div class="col">
+                <div class="feature">
+                  <img src="images/features_circle.png" alt="">
+                  <h3 class="py-3">Enviromental Law</h3>
+                  <p>Environmental legal issues might occur since the planned business activities are designed</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="feature">
+                  <img src="images/features_icon_2.png" alt="">
+                  <h3 class="py-3">Corporate and Commercial</h3>
+                  <p>We provide a complete range of services for the continuity of your business activities.</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="feature">
+                  <img src="images/features_icon_3.png" alt="">
+                  <h3 class="py-3">Information and Technology</h3>
+                  <p>IT not followed by the existing regulation which might cause legal uncertainty and business
+                    uncertainty.</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="feature">
+                  <img src="images/features_icon_4.png" alt="">
+                  <h3 class="py-3">Other Services</h3>
+                  <p>In dealing with disruptive economic and legal challenge, our firm also provide various legal
+                    services.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Feature section end -->
+
+  <!-- Achievement section start -->
+  <section>
+    <div class="achievement">
+      <div class="container-fluid container">
+        <h3 class="achievement__title">Some count that matters</h3>
+        <p class="achievement__sub">Our achievement in the journey depicted in numbers</p>
+        <div class="achievement__number">
+          <div class="d-flex justify-content-between mx-auto achievement__container">
+            <div>
+              <h4>30</h4>
+              <p>Clients</p>
+            </div>
+            <div style="border-left: 1px solid #fff; height: 100px; opacity: 40%"></div>
+            <div>
+              <h4>300+</h4>
+              <p>Taken business legalities</p>
+            </div>
+            <div style="border-left: 1px solid #fff; height: 100px; opacity: 40%"></div>
+            <div>
+              <h4>8</h4>
+              <p>Years of Journey</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Achievement section -->
+
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js"></script>
 </body>
+
 </html>
