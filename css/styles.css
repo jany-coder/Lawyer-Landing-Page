@@ -51,6 +51,11 @@ body {
   font-weight: 400;
 }
 
+h1,h2,h3,h4,h5,h6, p {
+  margin: 0;
+  padding: 0;
+}
+
 
 
 
@@ -193,4 +198,58 @@ body {
 
 .achievement .achievement__container {
   width: 50%;
+}
+
+/*------------------------------------*\
+  #TESTIMONIAL SECTION
+\*------------------------------------*/
+.testimonial {
+  background-color: var(--bg-sky-light);
+  padding: 90px 0;
+}
+
+.testimonial__title {
+  font-size: 3rem;
+  font-family: var(--play-fare);
+  font-weight: 700;
+  text-align: center;
+  color: var(--gray-3);
+}
+
+.testimonial__profile {
+  margin-top: 2rem;
+}
+
+.testimonial__profile__name h5 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.testimonial__card {
+  background-color: #fff;
+  padding: 1.5rem 1rem ;
+  position: relative;
+}
+
+.testimonial__card::after {
+  content: "";
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #fff;
+  top: 100%;
+  width: 0;
+  height: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.testimonial__card h4 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.testimonial__card p {
+    font-size: .875rem;
+    font-weight: 400;
+    padding: 1rem;
 }
